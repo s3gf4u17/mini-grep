@@ -6,10 +6,10 @@ test:
 	@minigrep cargo makefile
 
 trim:
-	@rm -rf benchmark
+	@rm -rf bmrk
 
 benchmark:
-	@python3 benchmark/main.py
+	@python3 bmrk/main.py
 
 push:
 	@git add -A
