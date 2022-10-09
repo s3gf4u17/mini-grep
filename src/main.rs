@@ -7,5 +7,5 @@ fn main() {
 
     let result = minigrep::run(&config);
     let duration = start.elapsed();
-    println!("{} in {} found {} times | {:?}", &config.query, &config.file, &result, &duration);
+    println!("{}, {}, {}, {:?}", &config.query, &config.file, &result, &duration);
 }
